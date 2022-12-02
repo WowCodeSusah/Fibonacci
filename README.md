@@ -21,7 +21,7 @@ int fibonacciIterative(int N){
     }
 }
 ```
-#Fibonacci Recursive
+# Fibonacci Recursive
 ```c
 int fibonacciRecursive (int N){
     if (N==0){
@@ -33,4 +33,10 @@ int fibonacciRecursive (int N){
     }
 }
 ```
-![Gay](images/same.png)
+# OutPut
+![same](image/same.png)
+# Time Complexity Output
+Test were ran between the two methods of running the fibonacci sequence within both recursive form and iterative form to see the time complexity of both methods. this was done using the code provided Sir Ardimas which resulted in the below times.
+
+![time1](image/time iterative.png)
+![time2](image/time recursive.png)
