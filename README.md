@@ -36,7 +36,16 @@ int fibonacciRecursive (int N){
 # OutPut
 ![same](image/same.png)
 # Time Complexity Output
-Test were ran between the two methods of running the fibonacci sequence within both recursive form and iterative form to see the time complexity of both methods. this was done using the code provided Sir Ardimas which resulted in the below times.
+Test were ran between the two methods of running the fibonacci sequence within both recursive form and iterative form to see the time complexity of both methods. this was done using the code provided by Sir Ardimas which resulted in the below times.
 
-![time1](image/time iterative.png)
-![time2](image/time recursive.png)
+![time1](image/time_iterative.png)
+![time2](image/time_recursive.png)
+
+through the test we can see that recursive's time is better then iterative which mean it has a faster time to complete the task at hand because within iterative format it takes time to check for each value while within recursive format it loops within it self by calling its own fucntion creating a loop within a loop that only does addition creating a faster time.
+
+# Space Complexity Output
+Test were ran again between the two methods of running a fibonacci sequence within both recursive form and iterative form to see the space complexity of both methods. this was done the code provided by Sir Ardimas which resulted in the below space usage which was taken from the task manager.
+
+![space](image/space.png)
+
+through the test we can see that recursive's space complexity is higher then iterative this is due to the fact that recursice does more commands in each call of the function per N -1 and N -2. while looping divides it equally for each instead.
